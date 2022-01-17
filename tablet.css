@@ -1,9 +1,20 @@
 .headerLinks{
     display:none;
 }
-.intro{
-    top:70px;
-}
+.mobilemenu{
+    display:block;
+    margin-top:90px
+  }
+  
+.hamburger{
+    display:block;
+} 
+
+#banner-right:before{
+    background-color: #dcb115;
+    background-image: none;
+    clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 100% 46%, 0% 0%);
+  }
 
 #footer{
     display:none;
@@ -118,4 +129,15 @@
 .service h4 {
     text-align: center;
 }
- 
+
+.adjust .line1{
+   transform : rotate(-45deg) translate(-10px,8px)
+}
+
+.adjust .line2{
+    opacity:0;
+}
+
+.adjust .line3{
+   transform: rotate(45deg) translate(-3px,-2px);
+}

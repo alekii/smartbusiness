@@ -1,12 +1,15 @@
-.intro{
-    left:3vw;
-    width:97vw;
-}
+ 
+
+
 
 .intro h3{
     font-size:2rem;
 }
 
+.intro{
+    width:95%;
+    margin:0 auto;
+}
 
 .intro h2{
     font-size:3rem;
@@ -21,8 +24,7 @@
 }
 
 #hero{
-    display:block;
-    height:60vh;
+    display:block; 
     padding-bottom:25px;
 }
 #banner-right{
@@ -30,8 +32,11 @@
 }
 #banner-left{
     width:100%;
+    padding:0;
 }
- 
+#banner-left:before{
+    top:25px;
+}
 #services-preview{
     display:block;
     width:100%;
