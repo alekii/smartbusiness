@@ -1,0 +1,83 @@
+.intro{
+    left:3vw;
+    width:97vw;
+}
+
+.intro h3{
+    font-size:2rem;
+}
+
+
+.intro h2{
+    font-size:3rem;
+}
+
+.intro h1{
+    font-size:4.8rem;
+}
+
+.smart{
+    width: fit-content;
+}
+
+#hero{
+    display:block;
+    height:60vh;
+    padding-bottom:25px;
+}
+#banner-right{
+    display: none;
+}
+#banner-left{
+    width:100%;
+}
+ 
+#services-preview{
+    display:block;
+    width:100%;
+    margin:0  
+}
+
+/*Offers section*/
+ 
+
+.form-items{
+    width:77%;
+}
+
+#news {
+    padding: 40px 0 0 0;
+}
+
+
+#news-title{
+    width:100%;
+    padding:0;
+    margin:0;
+}
+
+ 
+#articles{
+    display:block;
+}
+#article-card{
+    display:block;
+}
+ 
+.article-card{
+    width:100%;
+    padding-bottom:40px
+}
+
+.primary-button{
+    font-size:1.1rem;
+}
+
+#offersholder{  
+    width:95%;
+    margin:0 auto; 
+} 
+
+#mobilefooter{
+    display:block;
+}
